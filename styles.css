@@ -26,21 +26,25 @@ body, html {
   	-webkit-transform: translateY(-45%);
   	-ms-transform: translateY(-45%);
   	transform: translateY(-45%);
+  	text-align: center;
 }
 
 a {
 	color: #fff;
 	text-decoration: none;
+	text-shadow: 0 1px 5px #000;
 }
 a:hover {
 	color: #ccc;
+}
+a.email {
+	font-size: 0.9em;
 }
 
 h1 {
 	max-width: 500px;
 	margin: 0 auto 1.5em;
 	font-size: 1em;
-	text-align: center;
 }
 
 h1 img {
@@ -51,17 +55,16 @@ h1 img {
 }
 
 nav ul {
-	margin: 0;
+	margin: 0 0 1em;
 	padding: 0;
 	list-style: none;
-	text-align: center;
+	overflow: auto;
 }
 
 nav ul li {
 	display: inline-block;
 	margin: 0.5em 1em;
 	font-weight: 600;
-	text-shadow: 0 1px 5px #000;
 }
 
 @media (max-width: 600px) {
